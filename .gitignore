@@ -1,0 +1,38 @@
+# Virtual environment
+green_ai_env/
+venv/
+.env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Hugging Face cache
+.cache/
+huggingface_cache/
+
+# Data
+data/
+
+# Generated results/logs
+logs/
+results/
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
